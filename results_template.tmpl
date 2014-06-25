@@ -10,7 +10,19 @@
   #include raw "classes.txt"
     ];
     \$( ".tags" ).autocomplete({
-      source: availableTags
+      source: availableTags,
+      select: function(e, ui) {
+        submit_selector = '#'+e.target.id.replace('tags', 'submit');
+        \$.ajax({
+          url: 'http://192.168.1.104:8888/change/${image_name}/${query_label}/to/'+ui.item.label,
+          success: function() {
+            \$(submit_selector).text('Submitted');
+            setTimeout( function() {
+              \$(submit_selector).text('');
+            }, 2000);
+          }
+        });
+      }
     });
     #for $index, ($image_name, $region_filename, $label_folder, $change_value) in enumerate($regions_metadata)
     \$( "\#tags_${image_name}" ).keypress( function(e) {
