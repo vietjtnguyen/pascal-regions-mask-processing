@@ -12,7 +12,7 @@ do
   sed -r 's/.*([0-9]{4}_[0-9]{6}).*/\1/g' per-person/$person-$set-diff.txt > per-person/$person-$set-changes.txt
   for file in $(cat per-person/$person-$set-changes.txt)
   do
-    echo "cp per-person/$person/$set/$file.mat aggregate/$set/$file.mata"
+    echo "cp per-person/$person/$set/$file.mat aggregate/$set/$file.mat"
     cp per-person/$person/$set/$file.mat aggregate/$set/$file.mat
   done
 done
