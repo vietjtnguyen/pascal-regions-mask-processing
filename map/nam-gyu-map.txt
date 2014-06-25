@@ -1,0 +1,649 @@
+001: a basket of flowers
+002: accordion
+003: adornment
+004: aeroplane
+005: air balloon
+006: air conditioner
+007: analog machine
+008: annihilator
+009: aquaplane
+010: artillery
+011: ashtray
+012: aspirator
+013: audio
+014: baby bed
+015: baby car
+016: baby carriage
+017: backboard
+018: bag
+019: balance
+020: ball
+021: ball arm
+022: balloon
+023: bamboo weaving
+024: banana
+025: bar
+026: bar counter
+027: barrel
+028: barrow
+029: baseball
+030: baseball bar
+031: basket
+032: basketball
+033: basketball hoop
+034: basketball stands
+035: basketry
+036: bathtub
+037: beacon
+038: bed
+039: bed rail
+040: bedclothes
+041: beer
+042: bell
+043: bench
+044: bicycle
+045: bike
+046: binocle
+047: bird
+048: bird cage
+049: bird nest
+050: blackboard
+051: blade carrier
+052: blanket
+053: board
+054: boat
+055: bone
+056: book
+057: bookshelf
+058: bottle
+059: bottle opener
+060: bow
+061: bowl
+062: box
+063: brake cable
+064: brick
+065: bridge
+066: broom
+067: brush
+068: brush pot
+069: bucket
+070: building
+071: bulb
+072: bus
+073: cabinet
+074: cable car
+075: cage
+076: cake
+077: calculator
+078: calendar
+079: caliduct
+080: calling card
+081: camel
+082: camera
+083: camera lens
+084: can
+085: candle
+086: candle holders
+087: canvas
+088: cap
+089: car
+090: card
+091: carpet
+092: carriage
+093: cart
+094: case
+095: casette recorder
+096: cashing machine
+097: cashion
+098: cat
+099: cattle
+100: cctv
+101: cd
+102: cd box
+103: cd machine
+104: cd player
+105: ceiling
+106: celephone
+107: cello
+108: chain
+109: chair
+110: chessboard
+111: chicken
+112: chip
+113: chopping board
+114: chopstick
+115: cigarette
+116: clamp
+117: cleaner
+118: clip
+119: clippers
+120: clock
+121: cloth
+122: clothes rack
+123: clothes tree
+124: coffee
+125: coffee machine
+126: coin machine
+127: colour bar
+128: comb
+129: computer
+130: concert
+131: cone
+132: container
+133: control booth
+134: controller
+135: cooker
+136: cooking range
+137: copying machine
+138: coral
+139: corkscrew
+140: counter
+141: court
+142: cow
+143: crabstick
+144: crane
+145: crate
+146: cross
+147: crutch
+148: cup
+149: curtain
+150: cushion
+151: dais
+152: deceleration strip
+153: desert
+154: desk calendar
+155: dirt
+156: disc
+157: disc recorder
+158: display table
+159: dog
+160: dog chain
+161: dog house
+162: dolphin
+163: door
+164: drainer
+165: dray
+166: drink dispenser
+167: drinking machine
+168: drop
+169: drug
+170: drum
+171: drum kit
+172: duck
+173: dumbbell
+174: dummy horse
+175: earphone
+176: earrings
+177: egg
+178: electric fan
+179: electric iron
+180: electric pot
+181: electric saw
+182: electronic keyboard
+183: engine
+184: envelope
+185: equipment
+186: eraser
+187: escalator
+188: exhibition booth
+189: extinguisher
+190: eyeglass
+191: fan
+192: faucet
+193: fax machine
+194: fence
+195: fire place
+196: fish
+197: fish pole
+198: fish tank
+199: fishbowl
+200: fishing net
+201: flag
+202: flagstaff
+203: flame
+204: flashlight
+205: floor
+206: flower
+207: fly
+208: foam
+209: food
+210: football
+211: footbridge
+212: forceps
+213: fork
+214: forklift
+215: fox
+216: frame
+217: fridge
+218: frog
+219: fruit
+220: fume exhaust fan
+221: funnel
+222: furnace
+223: game machine
+224: garden cart
+225: gas cylinder
+226: gas hood
+227: gas stove
+228: glass
+229: glass marble
+230: globe
+231: glove
+232: goal
+233: grandstand
+234: grass
+235: gravestone
+236: ground
+237: guardrail
+238: guitar
+239: gun
+240: hammer
+241: hand cart
+242: handle
+243: handrail
+244: hanger
+245: hard disk drive
+246: hat
+247: headphone
+248: heater
+249: helicopter
+250: helmet
+251: holder
+252: hook
+253: horse
+254: host computer
+255: hot balloon
+256: hydrovalve
+257: ice
+258: inflator pump
+259: iron
+260: ironing board
+261: jar
+262: joypad
+263: kart
+264: kettle
+265: key
+266: keyboard
+267: kitchen range
+268: kite
+269: knife
+270: ladder
+271: ladder truck
+272: ladle
+273: laptop
+274: lid
+275: life buoy
+276: light
+277: lighter
+278: line
+279: lion
+280: lobster
+281: lock
+282: machine
+283: mahjong
+284: mailbox
+285: mannequin
+286: map
+287: mask
+288: mat
+289: mattress
+290: menu
+291: metal
+292: meter box
+293: microphone
+294: microwave
+295: microwave oven
+296: mirror
+297: missile
+298: model
+299: money
+300: monitor
+301: mop
+302: motorbike
+303: mountain
+304: mouse
+305: mouse pad
+306: multi-outlet
+307: musical instrument
+308: napkin
+309: net
+310: newspaper
+311: nipple
+312: notebook
+313: oar
+314: ornament
+315: outlet
+316: oven
+317: oxygen bottle
+318: pack
+319: pad
+320: pan
+321: paper
+322: paper box
+323: paper cutter
+324: parachute
+325: parasol
+326: parterre
+327: pelage
+328: pen
+329: pen container
+330: pencil
+331: person
+332: photo
+333: piano
+334: picture
+335: pig
+336: pillar
+337: pillow
+338: pipe
+339: plant
+340: plastic
+341: plastomer
+342: plate
+343: platform
+344: player
+345: pliers
+346: plume
+347: poker
+348: pole
+349: pool table
+350: portable music player
+351: pos machine
+352: postcard
+353: poster
+354: pot
+355: pottedplant
+356: pram
+357: printer
+358: projector
+359: pumpkin
+360: rabbit
+361: racket
+362: radiator
+363: radio
+364: rail
+365: rake
+366: range hood
+367: range hoods
+368: receiver
+369: recorder
+370: recreational machines
+371: remote control
+372: rim
+373: ring
+374: road
+375: robot
+376: rock
+377: rocket
+378: rope
+379: rugby ball
+380: ruler
+381: saddle
+382: sand
+383: saw
+384: scales
+385: scanner
+386: scissors
+387: scoop
+388: screen
+389: screwdriver
+390: sculpture
+391: scythe
+392: seasoning container
+393: sewer
+394: sewing machine
+395: shed
+396: sheep
+397: shelf drum
+398: shell
+399: shelves
+400: ship
+401: shoe
+402: shopping cart
+403: shovel
+404: sidecar
+405: sidewalk
+406: sign
+407: signal light
+408: sink
+409: skate board
+410: skateboard
+411: ski
+412: sky
+413: sled
+414: slippers
+415: smoke
+416: snail
+417: snake
+418: snow
+419: snowmobiles
+420: sofa
+421: spanner
+422: speaker
+423: spoon
+424: sprayer
+425: squirrel
+426: stage
+427: stair
+428: stapler
+429: stick
+430: sticky note
+431: stone
+432: stool
+433: stopper
+434: stove
+435: stovepipe
+436: straw
+437: stretcher
+438: sun
+439: sunglass
+440: sunshade
+441: swan
+442: sweeper
+443: swim ring
+444: swimming pool
+445: switch
+446: table
+447: tableware
+448: tank
+449: tap
+450: tape
+451: telephone
+452: telephone booth
+453: television
+454: tent
+455: tire
+456: toaster
+457: toilet
+458: tool
+459: toothbrush
+460: towel
+461: toy
+462: toycar
+463: track
+464: train
+465: trampoline
+466: trash bin
+467: tray
+468: tree
+469: trike
+470: tripod
+471: trophy
+472: truck
+473: tube
+474: turtle
+475: tvmonitor
+476: tweezers
+477: typewriter
+478: umbrella
+479: unknown
+480: vacuum cleaner
+481: vending machine
+482: video camera
+483: video game console
+484: video player
+485: video tape
+486: violin
+487: wall
+488: wall calendar
+489: wallet
+490: wardrobe
+491: washing machine
+492: watch
+493: water
+494: water dispenser
+495: water pipe
+496: water skate board
+497: watermelon
+498: whale
+499: wharf
+500: wheel
+501: wheelchair
+502: window
+503: wineglass
+504: wire
+505: wood
+506: wool
+507: bracelet
+508: viet 8
+509: viet 9
+510: viet 10
+511: viet 11
+512: viet 12
+513: viet 13
+514: viet 14
+515: viet 15
+516: viet 16
+517: viet 17
+518: viet 18
+519: viet 19
+520: viet 20
+521: viet 21
+522: viet 22
+523: viet 23
+524: viet 24
+525: viet 25
+526: viet 26
+527: viet 27
+528: viet 28
+529: viet 29
+530: viet 30
+531: viet 31
+532: viet 32
+533: viet 33
+534: viet 34
+535: viet 35
+536: viet 36
+537: viet 37
+538: viet 38
+539: viet 39
+540: viet 40
+541: viet 41
+542: viet 42
+543: viet 43
+544: viet 44
+545: viet 45
+546: viet 46
+547: viet 47
+548: viet 48
+549: viet 49
+550: birdfeeder
+551: foiliage
+552: leaves
+553: nam gyu 3
+554: nam gyu 4
+555: nam gyu 5
+556: nam gyu 6
+557: nam gyu 7
+558: nam gyu 8
+559: nam gyu 9
+560: nam gyu 10
+561: nam gyu 11
+562: nam gyu 12
+563: nam gyu 13
+564: nam gyu 14
+565: nam gyu 15
+566: nam gyu 16
+567: nam gyu 17
+568: nam gyu 18
+569: nam gyu 19
+570: nam gyu 20
+571: nam gyu 21
+572: nam gyu 22
+573: nam gyu 23
+574: nam gyu 24
+575: nam gyu 25
+576: nam gyu 26
+577: nam gyu 27
+578: nam gyu 28
+579: nam gyu 29
+580: nam gyu 30
+581: nam gyu 31
+582: nam gyu 32
+583: nam gyu 33
+584: nam gyu 34
+585: nam gyu 35
+586: nam gyu 36
+587: nam gyu 37
+588: nam gyu 38
+589: nam gyu 39
+590: nam gyu 40
+591: nam gyu 41
+592: nam gyu 42
+593: nam gyu 43
+594: nam gyu 44
+595: nam gyu 45
+596: nam gyu 46
+597: nam gyu 47
+598: nam gyu 48
+599: nam gyu 49
+600: boyan 0
+601: boyan 1
+602: boyan 2
+603: boyan 3
+604: boyan 4
+605: boyan 5
+606: boyan 6
+607: boyan 7
+608: boyan 8
+609: boyan 9
+610: boyan 10
+611: boyan 11
+612: boyan 12
+613: boyan 13
+614: boyan 14
+615: boyan 15
+616: boyan 16
+617: boyan 17
+618: boyan 18
+619: boyan 19
+620: boyan 20
+621: boyan 21
+622: boyan 22
+623: boyan 23
+624: boyan 24
+625: boyan 25
+626: boyan 26
+627: boyan 27
+628: boyan 28
+629: boyan 29
+630: boyan 30
+631: boyan 31
+632: boyan 32
+633: boyan 33
+634: boyan 34
+635: boyan 35
+636: boyan 36
+637: boyan 37
+638: boyan 38
+639: boyan 39
+640: boyan 40
+641: boyan 41
+642: boyan 42
+643: boyan 43
+644: boyan 44
+645: boyan 45
+646: boyan 46
+647: boyan 47
+648: boyan 48
+649: boyan 49

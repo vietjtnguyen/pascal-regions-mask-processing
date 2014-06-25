@@ -1,0 +1,1007 @@
+ 1755  rsync -vc boyan/* aggregate/
+ 1756  rsync -vc jun/* aggregate/
+ 1757  rsync -vc viet/* aggregate/
+ 1758  rsync -vc nam-gyu/* aggregate/
+
+History:
+ 1033  ls
+ 1034  cd post-triage/
+ 1035  ls
+ 1036  cd gimp/
+ 1037  ls
+ 1038  cd ..
+ 1039  ls
+ 1040  cd trainval/
+ 1041  ls
+ 1042  cd ..
+ 1043  ls
+ 1044  cd
+ 1045  cd labeling/
+ 1046  ls
+ 1047  cd trainval/
+ 1048  ls
+ 1049  vim map.txt 
+ 1050  ls
+ 1051  rm comment_
+ 1052  rm comments_and_sets.tar 
+ 1053  ls
+ 1054  cd ..
+ 1055  ls
+ 1056  tar -cvf trainval.tar trainval
+ 1057  ls
+ 1058  cp trainval.tar /media/VNGUYEN/post-triage/
+ 1059  ls
+ 1060  cd labeling/
+ 1061  ls
+ 1062  cd trainval
+ 1063  ls
+ 1064  cd label/
+ 1065  ls
+ 1066  ll
+ 1067  du -h .
+ 1068  ls
+ 1069  cd labeling/trainval
+ 1070  ls
+ 1071  vim map.txt p
+ 1072  fzf
+ 1073  cd .cache/
+ 1074  lks
+ 1075  ls
+ 1076  cd gimp-label-toolbox/
+ 1077  ls
+ 1078  ll
+ 1079  vim log.log 
+ 1080  cd research/gimp/gimp/
+ 1081  ls
+ 1082  vim label-toolbox.py 
+ 1083  pydoc gimpfu
+ 1084  cd research/gimp/
+ 1085  ls
+ 1086  cd gimp/
+ 1087  ls
+ 1088  cd label-toolbox.py 
+ 1089  ls
+ 1090  vim label-toolbox.py 
+ 1091  git plog
+ 1092  git diff
+ 1093  git ada
+ 1094  git commit -m "Save now wrapped in undo group. Shuffle colors clears undo history to prevent corruption."
+ 1095  git push origin master
+ 1096  ipython
+ 1097  cd .vim/bundle/
+ 1098  ls
+ 1099  git clone git@github.com:terryma/vim-multiple-cursors.git
+ 1100  cd
+ 1101  ls
+ 1102  noteseries note.md
+ 1103  ls
+ 1104  cd 
+ 1105  cd .cache/gimp-label-toolbox/
+ 1106  ls
+ 1107  vim log.log 
+ 1108  ll
+ 1109  vim log.log 
+ 1110  nano
+ 1111  ls
+ 1112  cd
+ 1113  cd .cache/gimp-label-toolbox/
+ 1114  ls
+ 1115  vim log.log 
+ 1116  ;s
+ 1117  ls
+ 1118  cd research/gimp/gimp/
+ 1119  ls
+ 1120  vim label-toolbox.py 
+ 1121  git diff
+ 1122  git st
+ 1123  git ada
+ 1124  git commit -m "Improved saving and color shuffling performance."
+ 1125  git st
+ 1126  git push origin master
+ 1127  ls
+ 1128  cd research/gimp/gimp/
+ 1129  vim label-toolbox.py 
+ 1130  t st
+ 1131  git diff
+ 1132  git ada
+ 1133  git commit -m "Improved loading performance by not flushing every layer."
+ 1134  git push origin master
+ 1135  git plog
+ 1136  ls
+ 1137  cd
+ 1138  ls
+ 1139  ln -s todoread/189.pdf Dropbox/test.pdf
+ 1140  cd Dropbox/
+ 1141  ll
+ 1142  ls
+ 1143  cd research/gimp/
+ 1144  ls
+ 1145  vim README.md 
+ 1146  cd Downloads/
+ 1147  ls
+ 1148  vim grades.csv 
+ 1149  ls
+ 1150  cd labeling/trainval
+ 1151  vim map.txt 
+ 1152  disabletouchpad 
+ 1153  top
+ 1154  cd research/gimp/
+ 1155  ls
+ 1156  cd gimp/
+ 1157  ls
+ 1158  vim label-toolbox.py 
+ 1159  cd research/gimp/gimp/
+ 1160  vim label-toolbox.py 
+ 1161  vim .vimrc
+ 1162  quicknote
+ 1163  ls
+ 1164  cd research/gimp/gimp/
+ 1165  ls
+ 1166  vim label-toolbox.py 
+ 1167  cd research/gimp/gimp/
+ 1168  vim label-toolbox.py 
+ 1169  cd .vim/bundle/
+ 1170  git clone git@github.com:tpope/vim-commentary.git
+ 1171  ls
+ 1172  cd
+ 1173  cd research/gimp/gimp/
+ 1174  vim label-toolbox.py 
+ 1175  cd
+ 1176  ls
+ 1177  cd vmshared/
+ 1178  ls
+ 1179  cd lab4
+ 1180  ls
+ 1181  vim osppeer.c 
+ 1182  ls
+ 1183  vim log.log 
+ 1184  cd
+ 1185  cd research/gimp/
+ 1186  ls
+ 1187  cd gimp/
+ 1188  vim label-toolbox.py 
+ 1189  cd .cache/gimp-label-toolbox/
+ 1190  ls
+ 1191  vim err.log 
+ 1192  cd .cache/gimp-label-toolbox/
+ 1193  ls
+ 1194  vim err.log 
+ 1195  vim log.log 
+ 1196  cd research/gimp/gimp/
+ 1197  ls
+ 1198  vim label-toolbox.py 
+ 1199  top
+ 1200  cd research/gimp/
+ 1201  ls
+ 1202  cd gimp/
+ 1203  ls
+ 1204  vim label-toolbox.py 
+ 1205  ls
+ 1206  cd labeling/trainval/sets/
+ 1207  ls
+ 1208  vim all.txt 
+ 1209  cd .cache/gimp-label-toolbox/
+ 1210  ls
+ 1211  vim err.log 
+ 1212  cd
+ 1213  cd labeling/
+ 1214  ls
+ 1215  cp trainval/map.txt blah/map.txt
+ 1216  cd
+ 1217  cd .cache/gimp-label-toolbox/
+ 1218  ls
+ 1219  vim err.log 
+ 1220  cd
+ 1221  cd research/gimp/gimp/
+ 1222  git st
+ 1223  git commit
+ 1224  git plog
+ 1225  git push origin master
+ 1226  cd research/gimp/gimp/i
+ 1227  cd research/gimp/gimp/
+ 1228  ls
+ 1229  vim label-toolbox.py 
+ 1230  git diff
+ 1231  git st
+ 1232  git add label-toolbox.py 
+ 1233  git st
+ 1234  git diff --cached
+ 1235  ls
+ 1236  cd research/gimp/gimp/
+ 1237  ls
+ 1238  vim label-toolbox.py 
+ 1239  cd research/gimp/gimp/i
+ 1240  cd research/gimp/gimp/
+ 1241  ls
+ 1242  vim label-toolbox.py 
+ 1243  cd .cache/gimp-label-toolbox/
+ 1244  ls
+ 1245  vim err.log 
+ 1246  cd ~/research/gimp/
+ 1247  ls
+ 1248  cd gimp/
+ 1249  ls
+ 1250  vim label-toolbox.py 
+ 1251  cd research/gimp/gimp/
+ 1252  git diff
+ 1253  vim label-toolbox.py 
+ 1254  cd .cache/gimp-label-toolbox/
+ 1255  ls
+ 1256  vim err.log 
+ 1257  cd labeling/trainval
+ 1258  ls
+ 1259  cd sets
+ 1260  vim all
+ 1261  vim all.txt 
+ 1262  ls
+ 1263  cd labeling/trainval/
+ 1264  vim map.txt 
+ 1265  cd ~/research/ms-report/ex
+ 1266  cd ~/research/ms-report/exploration/
+ 1267  ls
+ 1268  vim img-numbers-trainval.txt 
+ 1269  ls
+ 1270  cd
+ 1271  cd research/
+ 1272  ls
+ 1273  cd gimp/
+ 1274  ls
+ 1275  cd ../ms-report/data/
+ 1276  ls
+ 1277  cd post-triage/
+ 1278  ls
+ 1279  cd trainval/
+ 1280  ls
+ 1281  man rsync
+ 1282  man head
+ 1283  man bc
+ 1284  echo "3+2" | bc
+ 1285  cd
+ 1286  cd research/gimp/gimp/
+ 1287  ls
+ 1288  cp label-toolbox.py 
+ 1289  cp label-toolbox.py ../flatten.py
+ 1290  cd ..
+ 1291  mv flatten.py ~/labeling/staging/
+ 1292  ls
+ 1293  cd
+ 1294  cd .nixsettings
+ 1295  vim .bashrc
+ 1296  ls
+ 1297  cd labeling/
+ 1298  ls
+ 1299  mv trainval.tar trainval-initial.tar
+ 1300  ls
+ 1301  rm -r blah
+ 1302  ls
+ 1303  mkdir staging
+ 1304  cd staging/
+ 1305  ls
+ 1306  cp -r ../trainval/label/ viet
+ 1307  mv ~/Downloads/boyan/trainval/label .
+ 1308  mv label/ boyan
+ 1309  ls
+ 1310  mv ~/Downloads/nam-gyu/labeling nam-gyu
+ 1311  ls
+ 1312  ls -c *
+ 1313  ls
+ 1314  cd boyan/
+ 1315  ll
+ 1316  cd ../nam-gyu/
+ 1317  ls
+ 1318  ll
+ 1319  chmod 441 *
+ 1320  ll
+ 1321  chmod 664 *
+ 1322  ll
+ 1323  cd ..
+ 1324  ls
+ 1325  cd viet/
+ 1326  ll
+ 1327  cd ..
+ 1328  ls
+ 1329  mkdir old
+ 1330  rm -r old
+ 1331  cd viet/
+ 1332  rm *.old
+ 1333  cd ../
+ 1334  ls
+ 1335  rm */*.old
+ 1336  ll
+ 1337  ls boyan/ | wc -l
+ 1338  ls nam-gyu/ | wc -l
+ 1339  ls viet/ | wc -l
+ 1340  cd boyan/
+ 1341  lrt
+ 1342  cd ../nam-gyu/
+ 1343  lrt
+ 1344  cd ..
+ 1345  ls
+ 1346  cd viet/
+ 1347  ls
+ 1348  lrt
+ 1349  cd ..
+ 1350  ls
+ 1351  rsync -nvrt nam-gyu/* viet/
+ 1352  rsync -nrt nam-gyu/* viet/
+ 1353  rsync -nvrt nam-gyu/* viet/ | vim -
+ 1354  rsync --help
+ 1355  man rsync
+ 1356  manopt rsync
+ 1357  manopt rsync | less
+ 1358  rsync -vc nam-gyu/* viet/
+ 1359  rsync -vc nam-gyu/* viet/ | vim
+ 1360  rsync -vc nam-gyu/* viet/ | vim -
+ 1361  cd viet
+ 1362  ls
+ 1363  lrt
+ 1364  ls
+ 1365  cd ..
+ 1366  rm -r viet
+ 1367  cp -r ../trainval/label/ viet
+ 1368  ls
+ 1369  cd viet
+ 1370  ls
+ 1371  rm *.old
+ 1372  ls
+ 1373  shasum *
+ 1374  cd ..
+ 1375  shasum viet/* > viet.txt
+ 1376  vim viet.txt
+ 1377  cd nam-gyu/
+ 1378  shasum * > ../nam-gyu.txt
+ 1379  cd ../boyan/
+ 1380  shasum * > ../boyan.txt
+ 1381  cd ..
+ 1382  ls
+ 1383  diff nam-gyu.txt viet.txt
+ 1384  sdiff nam-gyu.txt viet.txt
+ 1385  sdiff nam-gyu.txt viet.txt | vim -
+ 1386  ls
+ 1387  rm boyan.txt nam-gyu.txt viet.txt 
+ 1388  cp ~/research/ms-report/exploration/img-numbers-trainval.txt .
+ 1389  ls
+ 1390  vim img-numbers-trainval.txt 
+ 1391  cp ~/research/ms-report/exploration/img-numbers-test.txt .
+ 1392  ls
+ 1393  vim img-numbers-test.txt 
+ 1394  mv img-numbers-test.txt tmp.sh
+ 1395  cd boyan/
+ 1396  bash ../tmp.sh 
+ 1397  ls
+ 1398  bash < ../tmp.sh 
+ 1399  ls
+ 1400  ls | wc -l
+ 1401  cd ..
+ 1402  ls
+ 1403  cd viet/
+ 1404  ls | wc -l
+ 1405  cd ..
+ 1406  ls
+ 1407  rm tmp.sh 
+ 1408  ls
+ 1409  cd boyan/
+ 1410  ls
+ 1411  shasum * > ../boyan.txt
+ 1412  cd ../nam-gyu/
+ 1413  shasum * > ../nam-gyu.txt
+ 1414  cd ../viet/
+ 1415  shasum * > ../viet.txt
+ 1416  ls
+ 1417  cd ..
+ 1418  ls
+ 1419  rm img-numbers-trainval.txt 
+ 1420  ls
+ 1421  sdiff nam-gyu.txt viet.txt 
+ 1422  sdiff nam-gyu.txt viet.txt | grep '|'
+ 1423  sdiff nam-gyu.txt viet.txt | grep '|' | wc -l
+ 1424  sdiff boyan.txt viet.txt | grep '|' | wc -l
+ 1425  cp -r ~/research/ms-report/data/post-triage/trainval/label orig
+ 1426  cd orig/
+ 1427  shasum * > ../orig.txt
+ 1428  cd ..
+ 1429  ls
+ 1430  sdiff boyan.txt orig.txt | grep '|' | wc -l
+ 1431  for i in boyan.txt nam-gyu.txt viet.txt; do sdiff $i.txt orig.txt | grep '|' | wc -l; done;
+ 1432  for i in boyan.txt nam-gyu.txt viet.txt; do sdiff $i orig.txt | grep '|' | wc -l; done;
+ 1433  ls
+ 1434  rsync -nvc viet/* orig/
+ 1435  rsync -nvc viet/* orig/ | vim -
+ 1436  for i in boyan.txt nam-gyu.txt viet.txt; do sdiff $i orig.txt | grep '|' | wc -l; done;
+ 1437  rsync -nvc viet/* orig/ | wc -l
+ 1438  echo "$(rsync -nvc viet/* orig/ | wc -l) - 3" | bc
+ 1439  echo "$(rsync -nvc nam-gyu/* orig/ | wc -l) - 3" | bc
+ 1440  echo "$(rsync -nvc boyan/* orig/ | wc -l) - 3" | bc
+ 1441  rsync -vc boyan/* orig/
+ 1442  rsync -vc nam-gyu/* orig/
+ 1443  rsync -vc viet/* orig/
+ 1444  ls
+ 1445  mv orig aggregate
+ 1446  cd aggregate/
+ 1447  ll
+ 1448  lrt
+ 1449  ll
+ 1450  cd ..
+ 1451  ls
+ 1452  vim flatten.py 
+ 1453  quicknote
+ 1454  cd ~/research/gimp/gimp/
+ 1455  vim label-toolbox.py 
+ 1456  vim flatten.py 
+ 1457  cd 
+ 1458  cd Downloads/
+ 1459  ls
+ 1460  op .
+ 1461  ls
+ 1462  ll
+ 1463  rm trainval\ \(1\).tar.gz 
+ 1464  ls
+ 1465  ls nam-gyu/
+ 1466  rm -r nam-gyu/
+ 1467  ls
+ 1468  op .
+ 1469  ls
+ 1470  cd trainval
+ 1471  ls
+ 1472  vim map.txt 
+ 1473  ls
+ 1474  cd ..
+ 1475  ls
+ 1476  rm -rf trainval
+ 1477  ls
+ 1478  rm PhysRevX.2.pdf 
+ 1479  ls
+ 1480  mv lubor_eccv12_o2p_novideo.pptx 3-bayesian-network-inference-algorithm.pdf ../todoread/
+ 1481  ls
+ 1482  rm grades.csv 
+ 1483  ls
+ 1484  rm Project7.m 
+ 1485  ls
+ 1486  cd ..
+ 1487  ls
+ 1488  cd Downloads/
+ 1489  ls
+ 1490  mv trainval.tar.gz jun.tar.gz
+ 1491  mv done_boyan.zip boyan.zip
+ 1492  mv labeling.zip nam-gyu.zip
+ 1493  ls
+ 1494  vim flatten
+ 1495  vim flatten.py 
+ 1496  vim flatten-folder.bash
+ 1497  ls
+ 1498  cp viet-map.txt aggregate-map.txt
+ 1499  vim aggregate-map.txt 
+ 1500  ls
+ 1501  ls flattened/ | wc -l
+ 1502  ls
+ 1503  op test.png
+ 1504  rm test.png
+ 1505  ls
+ 1506  vim fl
+ 1507  ls
+ 1508  cd ..
+ 1509  ls
+ 1510  vim flatten.py 
+ 1511  chmod u+x flatten.py 
+ 1512  ./flatten.py viet/2009_001360.mat
+ 1513  ./flatten.py viet/2010_002520.mat
+ 1514  pydoc scipy.io.savemat
+ 1515  ./flatten.py viet/2010_002520.mat
+ 1516  ./flatten.py viet/2010_002520.mat test.mat
+ 1517  ls
+ 1518  ./flatten.py viet/2010_002520.mat test.mat
+ 1519  matlab
+ 1520  ls
+ 1521  rm -r viet
+ 1522  cp -r ../trainval/label viet
+ 1523  cd viet
+ 1524  rm *.old
+ 1525  cd ..
+ 1526  ls
+ 1527  rm *.txt test.mat 
+ 1528  ls
+ 1529  rm -r boyan
+ 1530  ls
+ 1531  mv ~/Downloads/done_boyan boyan
+ 1532  ls
+ 1533  ls boyan/ | wc -l
+ 1534  cd boyan/
+ 1535  ls
+ 1536  cd ..
+ 1537  ls
+ 1538  mv ~/Downloads/trainval/jun .
+ 1539  ls
+ 1540  cp ~/Downloads/trainval/map.txt jun-map.txt
+ 1541  ls
+ 1542  cp ../trainval/map.txt viet-map.txt
+ 1543  mv ~/Downloads/map.txt nam-gyu-map.txt
+ 1544  ls
+ 1545  rm -r aggregate/
+ 1546  cp -r ~/research/ms-report/data/post-triage/trainval/label orig
+ 1547  ls
+ 1548  ls orig | wc -l
+ 1549  ls jun | wc -l
+ 1550  cd jun
+ 1551  rm *.or
+ 1552  rm *.old
+ 1553  ls
+ 1554  cd ..
+ 1555  ls
+ 1556  ls jun | wc -l
+ 1557  ls
+ 1558  cd nam-gyu
+ 1559  ls
+ 1560  rm *.old
+ 1561  cd ..
+ 1562  ls
+ 1563  cd viet
+ 1564  ls
+ 1565  rm *.old
+ 1566  cd ..
+ 1567  ls
+ 1568  ls viet | wc -l
+ 1569  ls nam-gyu | wc -l
+ 1570  ls boyan/ | wc -l
+ 1571  ls
+ 1572  cp -r orig/ aggregate
+ 1573  rsync -vc boyan/* aggregate/
+ 1574  rsync -vc jun/* aggregate/
+ 1575  rsync -vc nam-gyu/* aggregate/
+ 1576  rsync -vc viet/* aggregate/
+ 1577  ls
+ 1578  cd aggregate/
+ 1579  lrt
+ 1580  cd ..
+ 1581  ls aggregate/ | wc -l
+ 1582  ls
+ 1583  mkdir flattened
+ 1584  chmod u+x flatten-folder.bash 
+ 1585  ./flatten-folder.bash aggregate flattened
+ 1586  ls
+ 1587  ipython
+ 1588  ls
+ 1589  ipynb
+ 1590  ipython
+ 1591  ls
+ 1592  cd labeling/
+ 1593  ls
+ 1594  ./staging/flatten.py trainval/label/2010_002015.mat test.mat
+ 1595  pdb ./staging/flatten.py trainval/label/2010_002015.mat test.mat
+ 1596  vim staging/flatten.py 
+ 1597  pdb ./staging/flatten.py trainval/label/2010_002015.mat test.mat
+ 1598  cd labeling/staging/
+ 1599  ls
+ 1600  cd ..
+ 1601  vim staging/flatten.py 
+ 1602  ./staging/flatten.py trainval/label/2010_002015.mat test.mat
+ 1603  matlab
+ 1604  ls
+ 1605  rm test.mat
+ 1606  cd trainval
+ 1607  ls
+ 1608  vim hierarchy-example.txt
+ 1609  ls
+ 1610  cd ..
+ 1611  ls
+ 1612  cd staging/
+ 1613  ls
+ 1614  vim flatten.py 
+ 1615  cd ..
+ 1616  ./staging/flatten.py trainval/label/2010_002015.mat test.mat
+ 1617  ls
+ 1618  rm test.mat
+ 1619  ls
+ 1620  cd
+ 1621  cd Downloads/
+ 1622  ls
+ 1623  unzip nam-gyu.2.zip 
+ 1624  ls
+ 1625  rm *.old
+ 1626  ls
+ 1627  mv *.mat ~/labeling/staging/nam-gyu/
+ 1628  ls
+ 1629  cd flattened/
+ 1630  ls
+ 1631  rm *
+ 1632  ls
+ 1633  op .
+ 1634  ls
+ 1635  identify test.png 
+ 1636  identify -verbose test.png 
+ 1637  ls
+ 1638  op aggregate-map.txt 
+ 1639  vim aggregate
+ 1640  vim aggregate-map.txt 
+ 1641  ls
+ 1642  ipython
+ 1643  cd .cache/gimp-label-toolbox/
+ 1644  ls
+ 1645  vim log.log 
+ 1646  ls
+ 1647  cd research/gimp/
+ 1648  ls
+ 1649  cd gimp/
+ 1650  ls
+ 1651  vim label-toolbox.py 
+ 1652  ls
+ 1653  cd research/
+ 1654  ls
+ 1655  cd gimp/
+ 1656  ls
+ 1657  cd 
+ 1658  cd labeling/
+ 1659  ls
+ 1660  cd trainval
+ 1661  ls
+ 1662  cd label/
+ 1663  ls
+ 1664  cd ..
+ 1665  ls
+ 1666  cd sets/
+ 1667  ls
+ 1668  cd ../../staging/
+ 1669  ls
+ 1670  cd aggregate
+ 1671  ls
+ 1672  cd ../flk
+ 1673  cd ../flatten
+ 1674  ls
+ 1675  du -h .
+ 1676  ll
+ 1677  ipython
+ 1678  ls
+ 1679  cd ..
+ 1680  ls
+ 1681  cd flatten
+ 1682  cd flattened/
+ 1683  ls
+ 1684  du -h .
+ 1685  ls
+ 1686  cd ../../trainval
+ 1687  ls
+ 1688  vim map.txt 
+ 1689  ls
+ 1690  cd ..
+ 1691  ls
+ 1692  cd staging/
+ 1693  ls
+ 1694  rsync -vc nam-gyu/* aggregate/
+ 1695  ls
+ 1696  cp ../trainval/label/*.mat viet/
+ 1697  cd viet
+ 1698  lrt
+ 1699  cd ..
+ 1700  ls
+ 1701  cp ../trainval/map.txt viet-map.txt
+ 1702  ls
+ 1703  vim aggregate-map.txt 
+ 1704  ls
+ 1705  cd aggregate
+ 1706  ls
+ 1707  lrt
+ 1708  ls
+ 1709  cd ..
+ 1710  ls
+ 1711  rsync -vc boyan/* aggregate
+ 1712  ls
+ 1713  rsync -vc boyan/* aggregate/
+ 1714  rsync -vc nam-gyu/* aggregate/
+ 1715  rsync -vc jun/* aggregate/
+ 1716  rsync -vc viet/* aggregate/
+ 1717  ls
+ 1718  ./flatten-folder.bash aggregate flattened
+ 1719  ls
+ 1720  tar cvf flattened.tar flattened
+ 1721  ls
+ 1722  vim flatten.py 
+ 1723  ./flatten.py aggregate/2008_000002.mat test.mat
+ 1724  ./flatten.py aggregate/2010_002518.mat test.mat
+ 1725  ./flatten.py aggregate/2010_002531.mat test.mat
+ 1726  ./flatten.py aggregate/2010_002531.mat test2.mat
+ 1727  ./flatten.py aggregate/2008_000002.mat test2.mat
+ 1728  ./flatten.py aggregate/2008_000002.mat test1.mat
+ 1729  ./flatten.py aggregate/2010_002531.mat test2.mat
+ 1730  matlab
+ 1731  ls
+ 1732  cd
+ 1733  ls labeling/trainval/label/
+ 1734  cd labeling/trainval/label/
+ 1735  ipython
+ 1736  ls
+ 1737  vim flatten.py 
+ 1738  ls
+ 1739  vim aggregate-map.txt 
+ 1740  s
+ 1741  ls
+ 1742  ./index.py aggregate aggregate-map.txt 
+ 1743  ls
+ 1744  ./index.py flattened aggregate-map.txt 
+ 1745  ipython
+ 1746  ./flatten.py aggregate/2010_002531.mat test2.mat
+ 1747  ./flatten.py aggregate/2008_000002.mat test1.mat
+ 1748  ls
+ 1749  ls nam-gyu
+ 1750  ls
+ 1751  rm aggregate/*
+ 1752  rm -r aggregate
+ 1753  ls
+ 1754  cp -r orig aggregate
+ 1755  rsync -vc boyan/* aggregate/
+ 1756  rsync -vc jun/* aggregate/
+ 1757  rsync -vc viet/* aggregate/
+ 1758  rsync -vc nam-gyu/* aggregate/
+ 1759  ls
+ 1760  ./flatten.py aggregate/2008_000002.mat test1.mat
+ 1761  ./flatten.py aggregate/2010_002531.mat test2.mat
+ 1762  ls
+ 1763  cd nam-gyu
+ 1764  mv ~/Downloads/2008_000002.mat .
+ 1765  cd ..
+ 1766  ls
+ 1767  cp nam-gyu/2008_000002.mat aggregate/
+ 1768  ./flatten.py aggregate/2008_000002.mat test1.mat
+ 1769  matlab
+ 1770  rm -r flattened
+ 1771  mkdir flattened
+ 1772  ./flatten-folder.bash aggregate flattened
+ 1773  tar cvf flattened.tar flattened/
+ 1774  mv flattened.tar flattened.v2.tar
+ 1775  sudo pip install flask
+ 1776  sudo pip install --upgrade scikit-image
+ 1777  pydoc itertools
+ 1778  pydoc random
+ 1779  ipython
+ 1780  ls
+ 1781  ./index.py ../trainval/image/ flattened aggregate-map.txt annihilator
+ 1782  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1783  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep[A
+ 1784  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1785  lks
+ 1786  ls
+ 1787  op .
+ 1788  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1789  ls
+ 1790  op 2010_001256-sheep-0.png
+ 1791  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1792  ls
+ 1793  rm *.png
+ 1794  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1795  ls
+ 1796  op 2010_004694-sheep-1.png 
+ 1797  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1798  ls
+ 1799  op 2010_001245-sheep-6.png
+ 1800  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1801  lrt
+ 1802  op 2010_005466-sheep-5.png
+ 1803  rm *.png
+ 1804  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1805  ls
+ 1806  op 2009_003509-sheep-2.png 
+ 1807  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1808  lrt
+ 1809  op 2010_001607-sheep-1.png
+ 1810  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1811  ls
+ 1812  op 2009_001991-sheep-2.png
+ 1813  ls
+ 1814  rm *.png
+ 1815  mkdir regions
+ 1816  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1817  ls
+ 1818  op regions/
+ 1819  rm regions/*
+ 1820  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1821  op regions/
+ 1822  rm regions/*
+ 1823  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1824  rm regions/*
+ 1825  ./index.py ../trainval/image/ flattened aggregate-map.txt sheep
+ 1826  op regions/
+ 1827  ls
+ 1828  cd labeling/staging/
+ 1829  ls
+ 1830  cd aggregate
+ 1831  ls
+ 1832  matlab
+ 1833  ls
+ 1834  cd ..
+ 1835  ls
+ 1836  cd ../
+ 1837  ls
+ 1838  cd trainval
+ 1839  ls
+ 1840  cd sets/
+ 1841  ls
+ 1842  vim all.txt 
+ 1843  grep * "2008_000176"
+ 1844  grep "2008_000176" *
+ 1845  grep -n "2008_000176" *
+ 1846  ls
+ 1847  cd ../../staging/
+ 1848  ls
+ 1849  cp ../trainval/label/2008_000176.mat viet
+ 1850  cp viet/2008_000176.mat aggregate
+ 1851  ./flatten.py aggregate/2008_000176.mat flattened/2008_000176.mat 
+ 1852  cp flattened/2008_000176.mat ~
+ 1853  top
+ 1854  vim flatten.py 
+ 1855  cp flatten.py index.py
+ 1856  ls
+ 1857  rm -r flattened.tar 
+ 1858  vim index.py 
+ 1859  ls
+ 1860  cd 
+ 1861  ls
+ 1862  cd labeling/trainval
+ 1863  ls
+ 1864  cd sets/
+ 1865  ls
+ 1866  grep -n '2008_001970' * 
+ 1867  ls
+ 1868  cd
+ 1869  ls
+ 1870  cd research/ms-report/exploration/
+ 1871  ls
+ 1872  vim img-numbers-trainval.txt 
+ 1873  ls
+ 1874  cd triage-complete/stephanie/
+ 1875  ls
+ 1876  vim rank-trainval.txt 
+ 1877  cd ../angelica/
+ 1878  vim rank-trainval.txt 
+ 1879  ls
+ 1880  cd regions/
+ 1881  ls
+ 1882  cd regions/
+ 1883  ls
+ 1884  rm *
+ 1885  rm -rf *
+ 1886  ls
+ 1887  ls
+ 1888  cd labeling/staging/
+ 1889  ls
+ 1890  vim index.py 
+ 1891  ifconfig
+ 1892  ls
+ 1893  vim set-004.txt 
+ 1894  im
+ 1895  vim
+ 1896  ifconfig
+ 1897  ipython
+ 1898  ls
+ 1899  vim index.py 
+ 1900  ls
+ 1901  ipython
+ 1902  ls
+ 1903  vim index.pickle 
+ 1904  vim index.py
+ 1905  ipython
+ 1906  vim index.py
+ 1907  ls
+ 1908  vim index.py 
+ 1909  ls
+ 1910  vim index.py
+ 1911  ls
+ 1912  ifconfig
+ 1913  ls
+ 1914  ./index.py 
+ 1915  ./index.py ../trainval/image flattened aggregate-map.txt 
+ 1916  sudo ./index.py ../trainval/image flattened aggregate-map.txt 
+ 1917  lcd
+ 1918  cd labeling/staging/
+ 1919  ls
+ 1920  cp ../trainval/label/2008_001970.mat viet
+ 1921  cp viet/2008_001970.mat aggregate/2008_001970.mat 
+ 1922  ./flatten.py aggregate/2008_001970.mat flattened/2008_001970.mat 
+ 1923  cp flattened/2008_001970.mat ~
+ 1924  ls
+ 1925  cd ..
+ 1926  ls
+ 1927  cd staging/
+ 1928  ls
+ 1929  ls
+ 1930  cd ../trainval
+ 1931  ls
+ 1932  cd sets/
+ 1933  ls
+ 1934  vim all.txt 
+ 1935  vim rank-018.txt
+ 1936  vim set-018.txt
+ 1937  vim all.txt 
+ 1938  cat -n all.txt 
+ 1939  cat -n all.txt  | vim -
+ 1940  ls
+ 1941  cp polished-images.txt polished-images-name-only.txt
+ 1942  vim polished-images-name-only.txt 
+ 1943  op .
+ 1944  cd
+ 1945  cd research/ms-report/exploration/
+ 1946  ls
+ 1947  cd ../data/post-triage/
+ 1948  ls
+ 1949  cd staging/
+ 1950  ls
+ 1951  cd ..
+ 1952  ls
+ 1953  cd all/
+ 1954  ls
+ 1955  cd ..
+ 1956  ls
+ 1957  cd all
+ 1958  ls
+ 1959  cd label/
+ 1960  ls
+ 1961  cd ..
+ 1962  ls
+ 1963  cd comment/ls
+ 1964  cd comment/
+ 1965  ls
+ 1966  cd ..
+ 1967  ls
+ 1968  cd image/
+ 1969  ls
+ 1970  cd ..
+ 1971  ls
+ 1972  cd ..
+ 1973  lks
+ 1974  ls
+ 1975  cd staging/
+ 1976  ls
+ 1977  cd GRou
+ 1978  cd GroundTruthMask/
+ 1979  ls
+ 1980  cd ..
+ 1981  ls
+ 1982  cd grou
+ 1983  ls
+ 1984  cd GroundTruthMask/
+ 1985  ls
+ 1986  vim after-apply.txt 
+ 1987  vim before-apply.txt 
+ 1988  cd ..
+ 1989  ls
+ 1990  cd ..
+ 1991  ls
+ 1992  cd ../../exploration/
+ 1993  ls
+ 1994  ./apply-changes.py 
+ 1995  cd triage-complete/
+ 1996  ls
+ 1997  cd ..
+ 1998  ls
+ 1999  cd labeling/staging/
+ 2000  ls
+ 2001  cd aggregate
+ 2002  shasum * > ../aggregate-list.txt
+ 2003  cd orig
+ 2004  shasum * > ../orig-list.txt
+ 2005  cd ..
+ 2006  ;ls
+ 2007  ls
+ 2008  sdiff aggregate-list.txt orig-list.txt 
+ 2009  sdiff aggregate-list.txt orig-list.txt  | grep '|'
+ 2010  ls
+ 2011  rsync -vc viet/* aggregate/
+ 2012  cd aggregate
+ 2013  shasum * > ../aggregate-list.txt 
+ 2014  cd ..
+ 2015  ls
+ 2016  sdiff aggregate-list.txt orig-list.txt  | grep '|'
+ 2017  ls
+ 2018  rsync -vc boyan/* aggregate/
+ 2019  ls
+ 2020  rsync -vc jun/* aggregate/
+ 2021  rsync -vc nam-gyu/* aggregate/
+ 2022  ls
+ 2023  cd aggregate
+ 2024  ls
+ 2025  shasum * > ../aggregate-list.txt 
+ 2026  cd ..
+ 2027  sdiff aggregate-list.txt orig-list.txt  | grep '|'
+ 2028  ls
+ 2029  history
+ 2030  history | vim -
+ 2031  vim v2-copy-order.txt
+ 2032  history | vim -
+

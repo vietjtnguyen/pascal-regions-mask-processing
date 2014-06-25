@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Images for ${query_label}</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script>
+  \$(function() {
+    var availableTags = [
+  #include raw "classes.txt"
+    ];
+    \$( ".tags" ).autocomplete({
+      source: availableTags
+    });
+  });
+  </script>
+</head>
+<body>
+  <center>
+  <p>Number of images for this class: #echo len($query_image_list)#</p>
+  <p>
+  #for $label_set in $query_label_sets
+    <code>${label_set}</code>: #echo len(filter(lambda x: x[2] == label_set, $query_image_list))#<br>
+  #end for
+  </p>
+  <hr>
+  #for $index, ($image_name, $region_filename, $label_folder, $change_value) in enumerate($regions_metadata)
+  <p>
+    \##echo $index+1#: <code>$label_folder/${image_name}</code><br>
+    <image src="/${region_filename}"><br>
+    <input class="tags" id="tags_${image_name}" value="${change_value}">
+    <input type="submit" id="submit_${image_name}" onClick="\$.ajax({url: 'http://192.168.1.104:8888/change/${image_name}/${query_label}/to/'+\$('#tags_${image_name}').val(), success: function() { \$('#submit_${image_name}').attr('value', 'Submitted'); setTimeout(function() { \$('#submit_${image_name}').attr('value', 'Submit'); }, 2000); }})">
+  </p>
+  <hr>
+  #end for
+  </center>
+</body>
+</html>
