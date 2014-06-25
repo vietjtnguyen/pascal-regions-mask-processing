@@ -14,7 +14,7 @@
       select: function(e, ui) {
         submit_selector = '#'+e.target.id.replace('tags', 'submit');
         \$.ajax({
-          url: 'http://192.168.1.104:8888/change/${image_name}/${query_label}/to/'+ui.item.label,
+          url: '/change/${image_name}/${query_label}/to/'+ui.item.label,
           success: function() {
             \$(submit_selector).text('Submitted');
             setTimeout( function() {
@@ -28,7 +28,7 @@
     \$( "\#tags_${image_name}" ).keypress( function(e) {
       if (e.which == 13) {
         \$.ajax({
-          url: 'http://192.168.1.104:8888/change/${image_name}/${query_label}/to/'+this.value,
+          url: '/change/${image_name}/${query_label}/to/'+this.value,
           success: function() {
             \$('#submit_${image_name}').text('Submitted');
             setTimeout( function() {

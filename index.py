@@ -102,7 +102,7 @@ def change_label(image_name, from_label, to_label):
 
 @app.route('/regions/<path:filename>')
 def get_image(filename):
-  return send_from_directory('/home/vnguyen/labeling/staging/regions', filename)
+  return send_from_directory(os.path.join(os.getcwd(), 'regions'), filename)
 
 @app.route('/query/<query_label>')
 def get_label_examples(query_label):
