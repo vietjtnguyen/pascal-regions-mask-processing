@@ -7,4 +7,5 @@ per-person/*/
 regions
 *.pyc
 *.swp
+*.swo
 *.bak
