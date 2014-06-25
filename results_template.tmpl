@@ -32,10 +32,11 @@
 </head>
 <body>
   <center>
-  <p>Number of images for this class: #echo len($query_image_list)#</p>
+  <p>request amount (truncated): ${response_num}, set filter: #if $set_filter then 'contains <code>%s</code>' % $set_filter else 'none'#, change filter: #if $change_filter then 'on' else 'off'#</p>
+  <p>Number of images for this class#if $set_filter then ' (in specified set)' else ''#: #echo len($query_image_list)#</p>
   <p>
   #for $label_set in $query_label_sets
-    <code>${label_set}</code>: #echo len(filter(lambda x: x[2] == label_set, $query_image_list))#<br>
+    <code>${label_set}</code>: #echo len(filter(lambda x: label_set in x[2], $query_image_list))#<br>
   #end for
   </p>
   <hr>

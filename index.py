@@ -29,11 +29,10 @@ label_dirname = sys.argv[2]
 map_filename = sys.argv[3]
 
 # Load labels
+print('loading labels')
 label_names = ['empty']
 with open(map_filename, 'r') as f:
   label_names += [x.split(': ')[1].strip() for x in f]
-print('Loaded labels:')
-print(label_names)
 
 # Get list of labels
 if os.path.exists('index.pickle'):
@@ -121,9 +120,14 @@ def get_label_examples(query_label):
   set_filter = request.args.get('set')
   if set_filter:
     query_label_sets = set([set_filter])
-    query_image_list = filter(lambda x: x[2] == set_filter, query_image_list)
+    query_image_list = filter(lambda x: set_filter in x[2], query_image_list)
 
-  random_images = random.sample(query_image_list, min(len(query_image_list), response_num))
+  change_filter = request.args.get('nochanges')
+  if change_filter:
+    query_image_list = filter(lambda x: not changes.has_key((x[0], query_label)) or changes[(x[0], query_label)] is '', query_image_list)
+
+  response_num = min(len(query_image_list), response_num)
+  random_images = random.sample(query_image_list, response_num)
   regions_metadata = []
 
   for image_name, label_filename, label_folder in random_images:
