@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Label Index</title>
+  <style>
+    tr:nth-child(even) { background: #eee; }
+    tr:nth-child(odd) { background: #fff; }
+  </style>
+</head>
+<body>
+  <center>
+  <table cellpadding="4" cellspacing="0" border="0">
+  #for $label_name in $label_names
+    <tr>
+      <td><a href="/query/${label_name}">${label_name}</a></td>
+      <td><a href="/query/${label_name}?num=100">100</a></td>
+      <td><a href="/query/${label_name}?num=100&set=trainval">100 + trainval only</a></td>
+      <td><a href="/query/${label_name}?num=100&set=test">100 + test only</a></td>
+      <td><a href="/query/${label_name}?num=100&nochanges=true">100 + no changes</a></td>
+    </tr>
+  #end for
+  </table>
+  </center>
+</body>
+</html>

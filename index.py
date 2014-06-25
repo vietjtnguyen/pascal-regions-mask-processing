@@ -74,10 +74,18 @@ else:
 ## Server
 #################################################################################
 
+from index_template import index_template
 from results_template import results_template
 
 from flask import Flask, send_from_directory, request
 app = Flask('Label Explorer')
+
+@app.route('/')
+def get_index():
+  global label_names
+  namespace = {'label_names': label_names}
+  tmpl = index_template(searchList=[namespace])
+  return str(tmpl)
 
 @app.route('/change/<image_name>/<from_label>/to/', defaults={'to_label': ''})
 @app.route('/change/<image_name>/<from_label>/to/<to_label>')
