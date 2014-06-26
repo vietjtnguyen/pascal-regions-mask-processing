@@ -1,6 +1,7 @@
 aggregate
 all-images
 flattened
+remapped
 *.tar
 orig
 per-person/*/
