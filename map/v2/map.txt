@@ -31,27 +31,27 @@
 31: boat
 32: bone
 33: book
-34: bookshelf
-35: bottle
-36: bottle opener
-37: bowl
-38: box
-39: bracelet
-40: brick
-41: bridge
-42: broom
-43: brush
-44: bucket
-45: building
-46: bus
-47: cabinet
-48: cabinet door
-49: cage
-50: cake
-51: calculator
-52: calendar
-53: camel
-54: camera
+34: bottle
+35: bottle opener
+36: bowl
+37: box
+38: bracelet
+39: brick
+40: bridge
+41: broom
+42: brush
+43: bucket
+44: building
+45: bus
+46: cabinet
+47: cabinet door
+48: cage
+49: cake
+50: calculator
+51: calendar
+52: camel
+53: camera
+54: camera lens
 55: can
 56: candle
 57: candle holder
@@ -73,16 +73,16 @@
 73: chessboard
 74: chicken
 75: chopstick
-76: clippers
-77: clock
-78: closet
-79: cloth
-80: clothes tree
-81: coffee
-82: coffee machine
-83: comb
-84: computer
-85: concert
+76: clip
+77: clippers
+78: clock
+79: closet
+80: cloth
+81: clothes tree
+82: coffee
+83: coffee machine
+84: comb
+85: computer
 86: concrete
 87: cone
 88: container
@@ -91,376 +91,369 @@
 91: cooker
 92: copying machine
 93: coral
-94: cord
-95: cork
-96: corkscrew
-97: counter
-98: court
-99: cow
-100: crabstick
-101: crane
-102: crate
-103: cross
-104: crutch
-105: cup
-106: curtain
-107: cushion
-108: cutting board
-109: dais
-110: desk
-111: disc
-112: disc case
-113: dishwasher
-114: dock
-115: dog
-116: dolphin
-117: door
-118: drainer
-119: dray
-120: drink dispenser
-121: drinking machine
-122: drop
-123: drug
-124: drum
-125: drum kit
-126: duck
-127: dumbbell
-128: earphone
-129: earrings
-130: egg
-131: electric fan
-132: electric iron
-133: electric pot
-134: electric saw
-135: electronic keyboard
-136: engine
-137: envelope
-138: equipment
-139: eraser
-140: escalator
-141: exhibition booth
-142: extinguisher
-143: eyeglass
-144: fan
-145: faucet
-146: fax machine
-147: fence
-148: ferris wheel
-149: fire extinguisher
-150: fire hydrant
-151: fire place
-152: fish
-153: fish tank
-154: fishbowl
-155: fishing net
-156: fishing pole
-157: flag
-158: flagstaff
-159: flame
-160: flashlight
-161: floor
-162: flower
-163: fly
-164: foam
-165: foiliage
-166: food
-167: football
-168: footbridge
-169: forceps
-170: fork
-171: forklift
-172: fountain
-173: fox
-174: frame
-175: fridge
-176: frog
-177: fruit
-178: funnel
-179: furnace
-180: game controller
-181: game machine
-182: gas cylinder
-183: gas hood
-184: gas stove
-185: gift box
-186: glass
-187: glass marble
-188: globe
-189: glove
-190: goal
-191: grandstand
-192: grass
-193: gravestone
-194: ground
-195: guardrail
-196: guitar
-197: gun
-198: hammer
-199: hand cart
-200: handle
-201: handrail
-202: hanger
-203: hard disk drive
-204: hat
-205: hay
-206: headphone
-207: heater
-208: helicopter
-209: helmet
-210: holder
-211: hook
-212: horse
-213: horse-drawn carriage
-214: hot-air balloon
-215: hydrovalve
-216: ice
-217: inflator pump
-218: ipod
-219: iron
-220: ironing board
-221: jar
-222: kart
-223: kettle
-224: key
-225: keyboard
-226: kitchen range
-227: kite
-228: knife
-229: knife block
-230: ladder
-231: ladder truck
-232: ladle
-233: laptop
-234: leaves
-235: lid
-236: life buoy
-237: light
-238: light bulb
-239: lighter
-240: line
-241: lion
-242: lobster
-243: lock
-244: machine
-245: mailbox
-246: mannequin
-247: map
-248: mask
-249: mat
-250: match book
-251: mattress
-252: menu
-253: metal
-254: meter box
-255: microphone
-256: microwave
-257: mirror
-258: missile
-259: model
-260: money
-261: monitor
-262: monkey
-263: mop
-264: motorbike
-265: mountain
-266: mouse
-267: mouse pad
-268: musical instrument
-269: napkin
-270: net
-271: newspaper
-272: oar
-273: ornament
-274: outlet
-275: oven
-276: oxygen bottle
-277: pack
-278: pan
-279: paper
-280: paper box
-281: paper cutter
-282: parachute
-283: parasol
-284: parterre
-285: patio
-286: pelage
-287: pen
-288: pen container
-289: pencil
-290: person
-291: photo
-292: piano
-293: picture
-294: pig
-295: pillar
-296: pillow
-297: pipe
-298: pitcher
-299: plant
-300: plastic
-301: plate
-302: platform
-303: player
-304: playground
-305: pliers
-306: plume
-307: poker
-308: poker chip
-309: pole
-310: pool table
-311: postcard
-312: poster
-313: pot
-314: pottedplant
-315: printer
-316: projector
-317: pumpkin
-318: rabbit
-319: racket
-320: radiator
-321: radio
-322: rail
-323: rake
-324: ramp
-325: range hood
-326: receiver
-327: recorder
-328: recreational machines
-329: remote control
-330: road
-331: robot
-332: rock
-333: rocket
-334: rocking horse
-335: rope
-336: rug
-337: ruler
-338: runway
-339: saddle
-340: sand
-341: saw
-342: scale
-343: scanner
-344: scissors
-345: scoop
-346: screen
-347: screwdriver
-348: sculpture
-349: scythe
-350: sewer
-351: sewing machine
-352: shed
-353: sheep
-354: shell
-355: shelves
-356: shoe
-357: shopping cart
-358: shovel
-359: sidecar
-360: sidewalk
-361: sign
-362: signal light
-363: sink
-364: skateboard
-365: ski
-366: sky
-367: sled
-368: slippers
-369: smoke
-370: snail
-371: snake
-372: snow
-373: snowmobiles
-374: sofa
-375: spanner
-376: spatula
-377: speaker
-378: speed bump
-379: spice container
-380: spoon
-381: sprayer
-382: squirrel
-383: stage
-384: stair
-385: stapler
-386: stick
-387: sticky note
-388: stone
-389: stool
-390: stove
-391: straw
-392: stretcher
-393: sun
-394: sunglass
-395: sunshade
-396: surveillance camera
-397: swan
-398: sweeper
-399: swim ring
-400: swimming pool
-401: swing
-402: switch
-403: table
-404: tableware
-405: tank
-406: tap
-407: tape
-408: tarp
-409: telephone
-410: telephone booth
-411: television
-412: tent
-413: tire
-414: toaster
-415: toilet
-416: tong
-417: tool
-418: toothbrush
-419: towel
-420: toy
-421: toy car
-422: track
-423: train
-424: trampoline
-425: trash bin
-426: tray
-427: tree
-428: tricycle
-429: tripod
-430: trophy
-431: truck
-432: tube
-433: turtle
-434: tvmonitor
-435: tweezers
-436: typewriter
-437: umbrella
-438: unknown
-439: vacuum cleaner
-440: vending machine
-441: video camera
-442: video game console
-443: video player
-444: video tape
-445: violin
-446: wakeboard
-447: wall
-448: wallet
-449: wardrobe
-450: washing machine
-451: watch
-452: water
-453: water dispenser
-454: water pipe
-455: water skate board
-456: watermelon
-457: whale
-458: wharf
-459: wheel
-460: wheelchair
-461: window
-462: window blinds
-463: wineglass
-464: wire
-465: wood
-466: wool
+94: cork
+95: corkscrew
+96: counter
+97: court
+98: cow
+99: crabstick
+100: crane
+101: crate
+102: cross
+103: crutch
+104: cup
+105: curtain
+106: cushion
+107: cutting board
+108: dais
+109: disc
+110: disc case
+111: dishwasher
+112: dock
+113: dog
+114: dolphin
+115: door
+116: drainer
+117: dray
+118: drink dispenser
+119: drinking machine
+120: drop
+121: drug
+122: drum
+123: drum kit
+124: duck
+125: dumbbell
+126: earphone
+127: earrings
+128: egg
+129: electric fan
+130: electric iron
+131: electric pot
+132: electric saw
+133: electronic keyboard
+134: engine
+135: envelope
+136: equipment
+137: escalator
+138: exhibition booth
+139: extinguisher
+140: eyeglass
+141: fan
+142: faucet
+143: fax machine
+144: fence
+145: ferris wheel
+146: fire extinguisher
+147: fire hydrant
+148: fire place
+149: fish
+150: fish tank
+151: fishbowl
+152: fishing net
+153: fishing pole
+154: flag
+155: flagstaff
+156: flame
+157: flashlight
+158: floor
+159: flower
+160: fly
+161: foam
+162: food
+163: footbridge
+164: forceps
+165: fork
+166: forklift
+167: fountain
+168: fox
+169: frame
+170: fridge
+171: frog
+172: fruit
+173: funnel
+174: furnace
+175: game controller
+176: game machine
+177: gas cylinder
+178: gas hood
+179: gas stove
+180: gift box
+181: glass
+182: glass marble
+183: globe
+184: glove
+185: goal
+186: grandstand
+187: grass
+188: gravestone
+189: ground
+190: guardrail
+191: guitar
+192: gun
+193: hammer
+194: hand cart
+195: handle
+196: handrail
+197: hanger
+198: hard disk drive
+199: hat
+200: hay
+201: headphone
+202: heater
+203: helicopter
+204: helmet
+205: holder
+206: hook
+207: horse
+208: horse-drawn carriage
+209: hot-air balloon
+210: hydrovalve
+211: ice
+212: inflator pump
+213: ipod
+214: iron
+215: ironing board
+216: jar
+217: kart
+218: kettle
+219: key
+220: keyboard
+221: kitchen range
+222: kite
+223: knife
+224: knife block
+225: ladder
+226: ladder truck
+227: ladle
+228: laptop
+229: leaves
+230: lid
+231: life buoy
+232: light
+233: light bulb
+234: lighter
+235: line
+236: lion
+237: lobster
+238: lock
+239: machine
+240: mailbox
+241: mannequin
+242: map
+243: mask
+244: mat
+245: match book
+246: mattress
+247: menu
+248: metal
+249: meter box
+250: microphone
+251: microwave
+252: mirror
+253: missile
+254: model
+255: money
+256: monkey
+257: mop
+258: motorbike
+259: mountain
+260: mouse
+261: mouse pad
+262: musical instrument
+263: napkin
+264: net
+265: newspaper
+266: oar
+267: ornament
+268: outlet
+269: oven
+270: oxygen bottle
+271: pack
+272: pan
+273: paper
+274: paper box
+275: paper cutter
+276: parachute
+277: parasol
+278: parterre
+279: patio
+280: pelage
+281: pen
+282: pen container
+283: pencil
+284: person
+285: photo
+286: piano
+287: picture
+288: pig
+289: pillar
+290: pillow
+291: pipe
+292: pitcher
+293: plant
+294: plastic
+295: plate
+296: platform
+297: player
+298: playground
+299: pliers
+300: plume
+301: poker
+302: poker chip
+303: pole
+304: pool table
+305: postcard
+306: poster
+307: pot
+308: pottedplant
+309: printer
+310: projector
+311: pumpkin
+312: rabbit
+313: racket
+314: radiator
+315: radio
+316: rail
+317: rake
+318: ramp
+319: range hood
+320: receiver
+321: recorder
+322: recreational machines
+323: remote control
+324: road
+325: robot
+326: rock
+327: rocket
+328: rocking horse
+329: rope
+330: rug
+331: ruler
+332: runway
+333: saddle
+334: sand
+335: saw
+336: scale
+337: scanner
+338: scissors
+339: scoop
+340: screen
+341: screwdriver
+342: sculpture
+343: scythe
+344: sewer
+345: sewing machine
+346: shed
+347: sheep
+348: shell
+349: shelves
+350: shoe
+351: shopping cart
+352: shovel
+353: sidecar
+354: sidewalk
+355: sign
+356: signal light
+357: sink
+358: skateboard
+359: ski
+360: sky
+361: sled
+362: slippers
+363: smoke
+364: snail
+365: snake
+366: snow
+367: snowmobiles
+368: sofa
+369: spanner
+370: spatula
+371: speaker
+372: speed bump
+373: spice container
+374: spoon
+375: sprayer
+376: squirrel
+377: stage
+378: stair
+379: stapler
+380: stick
+381: sticky note
+382: stone
+383: stool
+384: stove
+385: straw
+386: stretcher
+387: sun
+388: sunglass
+389: sunshade
+390: surveillance camera
+391: swan
+392: sweeper
+393: swim ring
+394: swimming pool
+395: swing
+396: switch
+397: table
+398: tableware
+399: tank
+400: tap
+401: tape
+402: tarp
+403: telephone
+404: telephone booth
+405: tent
+406: tire
+407: toaster
+408: toilet
+409: tong
+410: tool
+411: toothbrush
+412: towel
+413: toy
+414: toy car
+415: track
+416: train
+417: trampoline
+418: trash bin
+419: tray
+420: tree
+421: tricycle
+422: tripod
+423: trophy
+424: truck
+425: tube
+426: turtle
+427: tvmonitor
+428: tweezers
+429: typewriter
+430: umbrella
+431: unknown
+432: vacuum cleaner
+433: vending machine
+434: video camera
+435: video game console
+436: video player
+437: video tape
+438: violin
+439: wakeboard
+440: wall
+441: wallet
+442: wardrobe
+443: washing machine
+444: watch
+445: water
+446: water dispenser
+447: water pipe
+448: water skate board
+449: watermelon
+450: whale
+451: wharf
+452: wheel
+453: wheelchair
+454: window
+455: window blinds
+456: wineglass
+457: wire
+458: wood
+459: wool
