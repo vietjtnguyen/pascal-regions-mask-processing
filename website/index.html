@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+</head>
+<body>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<style>
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+} body { padding-top: 70px; }
+</style>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+    <ul class="nav navbar-nav">
+      <li>
+<a href="#introduction">Introduction</a>
+</li>
+      <li>
+<a href="#download">Download</a>
+</li>
+      <li>
+<a href="#statistics">Statistics</a>
+</li>
+      <li>
+<a href="#considerations">Usage Considerations</a>
+</li>
+      <li>
+<a href="#work">Work</a>
+</li>
+      <li>
+<a href="#acknowledgements">Acknowledgements</a>
+</li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+
+<a name="introduction"></a>
+<h1 id="pascal-regions-dataset">PASCAL Regions Dataset</h1>
+<p>This dataset is a set of additional annotations for PASCAL VOC 2010. It goes beyond both object detection bounding boxes and object segmentation by providing whole scene semantic segmentation. This boils down to a per-pixel class label.</p>
+<p>Below are some example segmentations from the dataset. The statistics section below has a full list of labels.</p>
+<a name="download"></a>
+<h2 id="download">Download</h2>
+<div class="well row">
+<div class="col-md-6">
+
+<h3 id="training-and-validation-set">Training and Validation Set</h3>
+<p>The following download contains <em>only</em> the annotations for the training/validation set and a text file (<code>labels.txt</code>) containing the integer-to-name mapping.</p>
+<p><a class="btn btn-primary btn-lg" href="trainval.tar.gz">trainval.tar.gz (30.7 MB)</a></p>
+<p>Original images for the dataset can be downloaded from the PASCAL VOC 2010 website: <a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2010/">http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2010/</a></p>
+</div>
+<div class="col-md-6">
+
+<h3 id="testing-set">Testing Set</h3>
+<p>PASCAL VOC 2010 released their testing set, and this set was also annotated. Since we are not hosting a challenge the testing set will be made available soon.</p>
+<p><a class="btn btn-primary btn-lg" disabled="disabled" href="#">test.tar.gz (coming soon)</a></p>
+<p>Original images for the test set can be downloaded from the PASCAL VOC 2010 website: <a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2010/#testdata">http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2010/#testdata</a></p>
+</div>
+</div>
+
+<p><a href="#">back to top</a></p>
+<a name="work"></a>
+<h2 id="statistics">Statistics</h2>
+<p>Since the dataset is an annotation of PASCAL VOC 2010 it shares the same set numbers. <code>trainval</code> contains 10,103 images while <code>test</code> contains 10,417 images.</p>
+<p><a href="#">back to top</a></p>
+<a name="considerations"></a>
+<h2 id="usage-considerations">Usage Considerations</h2>
+<p>The classes are not drawn from a fixed pool. Instead labelers are free to both select or type in what they believe to be the appropriate class and to determine what the appropriate object granularity is. This leads to some interesting ambiguities and post-processing.</p>
+<p><a href="#">back to top</a></p>
+<h2 id="work">Work</h2>
+<h3 id="the-role-of-context-for-object-detection-and-semantic-segmentation-in-the-wild">The Role of Context for Object Detection and Semantic Segmentation in the Wild</h3>
+<p>Roozbeh Mottaghi, Xianjie Chen, Xiaobai Liu, Nam-Gyu Cho, Seong-Whan Lee, Sanja Fidler, Raquel Urtasun, Alan Yuille (CVPR 2014)</p>
+<ul>
+<li><a href="mottaghi_et_al_cvpr14.pdf">mottaghi_et_al_cvpr14.pdf</a></li>
+</ul>
+<p><a href="#">back to top</a></p>
+<a name="acknowledgements"></a>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<ul>
+<li><a href="http://www.korea.ac.kr/mbshome/mbs/university/index.do">Korea University</a></li>
+<li><a href="http://www.ucla.edu/">University of California, Los Angeles</a>
+<ul>
+<li><a href="http://statistics.ucla.edu/">Department of Statistics</a></li>
+</ul></li>
+</ul>
+<p><a href="#">back to top</a></p>
+<a name="statistics"></a>
+</div>
+
+</body>
+</html>
