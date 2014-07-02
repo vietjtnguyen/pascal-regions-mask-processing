@@ -11,3 +11,6 @@ regions
 *.swp
 *.swo
 *.bak
+*.log
+website
+*.pickle

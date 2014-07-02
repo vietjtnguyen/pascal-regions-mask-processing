@@ -1,5 +1,0 @@
-loading source labels
-Traceback (most recent call last):
-  File "./translate-labels.py", line 63, in <module>
-    src_index_to_src_name += [x.split(': ')[1].strip() for x in f]
-IndexError: list index out of range
