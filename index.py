@@ -45,7 +45,10 @@ else:
     for filename in filenames:
       print('  checking %s...' % os.path.join(folder, filename))
       label_filename = os.path.join(folder, filename)
-      label_image = loadmat(label_filename)['Label']
+      try:
+        label_image = loadmat(label_filename)['Label']
+      except KeyError:
+        label_image = loadmat(label_filename)['LabelMap']
       for label_int in np.unique(label_image):
         try:
           label_images[label_names[label_int]].append((os.path.splitext(filename)[0], label_filename, folder))
@@ -141,7 +144,10 @@ def get_label_examples(query_label):
   for image_name, label_filename, label_folder in random_images:
     image_filename = os.path.join(image_dirname, '%s.jpg' % image_name)
     image = imread(image_filename)
-    label_image = loadmat(label_filename)['Label']
+    try:
+      label_image = loadmat(label_filename)['Label']
+    except KeyError:
+      label_image = loadmat(label_filename)['LabelMap']
     image_rows, image_cols = label_image.shape
     regions = skimage.measure.regionprops(label_image)
     for region_index, region in enumerate(regions):
